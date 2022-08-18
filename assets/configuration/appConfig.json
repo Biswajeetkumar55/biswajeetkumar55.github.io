@@ -1,0 +1,5 @@
+{
+    "apiLocation": "https://agentsite-bob.herokuapp.com/api",
+    "envType":"DEV"
+
+}

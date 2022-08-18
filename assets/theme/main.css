@@ -1,0 +1,78 @@
+:root{
+    --main-bg:#e91e63;
+  }
+  
+  
+  
+  input:focus, button:focus {
+    border: 1px solid var(--main-bg) !important;
+    box-shadow: none !important;
+  }
+  
+ 
+  
+  /* Start Sign up */
+  
+  .bg-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+  }
+  .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+  }
+  
+
+  .form-outline input[type="radio"]{
+height: 25px;
+width:25px;
+position:relative;
+top:7px;
+margin:10px;
+  }
+
+  
+.form-control-lg{
+min-height:unset!important;
+
+}
+
+.form-select-lg{
+  min-height:unset!important;
+  
+}
+.btn-lg{
+  width: 100%;
+
+}
+.form_outline .btn-lg{
+  width: 30%;
+
+}
+
+
+
+
+.checkbox_label label{
+  width:unset!important;
+}
+::placeholder {
+  font-size: 14px;
+}
